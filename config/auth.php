@@ -36,10 +36,10 @@ return [
     */
 
     'guards' => [
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
-        ],
+      'web' => [
+        'driver' => 'session',
+        'provider' => 'modullo',
+      ],
 
         'api' => [
             'driver' => 'token',
@@ -70,6 +70,10 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
+
+        'modullo' => [
+          'driver' => 'modullo',
+        ]
 
         // 'users' => [
         //     'driver' => 'database',

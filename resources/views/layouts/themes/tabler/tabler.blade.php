@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
     <!-- Dashboard Core -->
+    <link href="{{ asset('Themes/tabler/css/tabler.css') }}" rel="stylesheet" />
+    <link href="{{ asset('Themes/tabler/css/app.css') }}" rel="stylesheet" />
     <link href="{{ asset('Themes/tabler/css/dashboard.css') }}" rel="stylesheet" />
     <!-- c3.js Charts Plugin -->
     <link href="{{ asset('Themes/tabler/plugins/charts-c3/plugin.css') }}" rel="stylesheet" />
@@ -42,12 +44,10 @@
 
 
             @section('body_content')
-                <div class="my-3 my-md-5" id="tabler-content">
-                    <div class="container">
+                    <div class="container ">
 
                         @yield('body_content_main')
                     </div>
-                </div>
             @show
         </div>
         @section('footer')
@@ -65,27 +65,16 @@
 <script src="{{ asset('Themes/tabler/js/vendors/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('Themes/tabler/plugins/prismjs/js/prism.pack.js') }}"></script>
 <script src="{{ asset('Themes/tabler/js/dashboard.js') }}"></script>
+<script src="{{ asset('Themes/tabler/js/tabler.min.js') }}"></script>
 <!-- c3.js Charts Plugin -->
 <script src="{{ asset('Themes/tabler/plugins/charts-c3/js/d3.v3.min.js') }}"></script>
 <script src="{{ asset('Themes/tabler/plugins/charts-c3/js/c3.min.js') }}"></script>
 <!-- Input Mask Plugin -->
 <script src="{{ asset('Themes/tabler/plugins/input-mask/js/jquery.mask.min.js') }}"></script>
 <script src="{{ asset('Themes/tabler/js/core.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/axios.min.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/moment.min.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/vue.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/sweetalert.min.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/voca.min.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/tabler-components.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/bootstrap-table/bootstrap-table.min.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/moment.min.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/lib/combodate.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/app.js') }}"></script>
 
 
 <!--custom-script.js - Add your own theme custom JS-->
-<script src="{{ asset('Themes/tabler/js/custom-vue.js') }}"></script>
-<script src="{{ asset('Themes/tabler/js/custom_script.js') }}"></script>
 @yield('body_js')
 </body>
 </html>

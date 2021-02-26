@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Hub;
 
 use Hostville\Modullo\Sdk;
 use Illuminate\Http\Request;
-use Dorcas\ModulesLibrary\Models\ModulesLibraryVideos;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;

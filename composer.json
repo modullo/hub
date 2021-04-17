@@ -6,6 +6,12 @@
         "framework",
         "laravel"
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/mac/Documents/projects/hostvile/modullo-modules/*",
+            "symlink": true
+        }],
     "license": "MIT",
     "require": {
         "php": "7.4.*",
@@ -14,7 +20,12 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
+        "modullo/user-laravel": "@dev",
+        "modullo/sdk-php-laravel": "@dev",
+        "modullo/modules-eos-solution": "@dev",
+        "modullo/modules-auth": "@dev",
         "laravel/helpers": "^1.4",
+        "doctrine/dbal": "v2.4.2",
       "ext-json": "*"
     },
     "require-dev": {

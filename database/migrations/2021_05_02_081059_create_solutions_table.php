@@ -18,10 +18,10 @@ class CreateSolutionsTable extends Migration
             $table->text('what_you_need_to_build');
             $table->boolean('published')->default(0);
             $table->enum('solicitation_type',['solicited','unsolicited']);
-            $table->timestamp('submission_deadline');
+            $table->timestamp('submission_deadline')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->foreignUuid('solution_cycle_id');
             $table->string('frd')->nullable();
-            $table->timestamp('frd_date');
+            $table->timestamp('frd_date')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamps();
         });
     }

@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Ekoopensource'),
+    'name' => env('APP_NAME', 'Modullo LMS'),
 
     /*
     |--------------------------------------------------------------------------

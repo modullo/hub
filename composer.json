@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "/Users/mac/Documents/projects/hostvile/modullo-modules/*",
+            "url": "/Users/mac/Documents/projects/hostvile/lms-modullo/modules/*",
             "symlink": true
         }],
     "license": "MIT",
@@ -25,7 +25,9 @@
         "laravel/tinker": "^2.5",
         "league/flysystem-aws-s3-v3": "^1.0",
         "modullo/modules-auth": "@dev",
-        "modullo/modules-eos-solution": "@dev",
+        "lms/modules-lms-learning-base": "@dev",
+        "lms/modules-lms-assessment-base": "@dev",
+        "lms/modules-lms-base": "@dev",
         "modullo/sdk-php-laravel": "@dev",
         "modullo/user-laravel": "@dev"
     },

@@ -14,17 +14,18 @@
         }],
     "license": "MIT",
     "require": {
-        "php": "7.4",
+        "php": ">=7.4",
+        "ext-json": "*",
+        "doctrine/dbal": "^3.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
-        "laravel/tinker": "^2.5",
-        "modullo/user-laravel": "@dev",
-        "modullo/sdk-php-laravel": "@dev",
-        "modullo/modules-auth": "@dev",
         "laravel/helpers": "^1.4",
-        "ext-json": "*"
+        "laravel/tinker": "^2.5",
+        "modullo/modules-auth": "@dev",
+        "modullo/sdk-php-laravel": "@dev",
+        "modullo/user-laravel": "@dev"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

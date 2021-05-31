@@ -9,21 +9,23 @@
     "repositories": [
         {
             "type": "path",
-            "url": "/Users/user/sites/Modullo/modullo-modules/*",
+            "url": "/Users/mac/Documents/projects/hostvile/modullo-modules/*",
             "symlink": true
         }],
     "license": "MIT",
     "require": {
-        "php": ">=7.4",
+        "php": "7.4.*",
         "ext-json": "*",
-        "doctrine/dbal": "^3.0",
+        "doctrine/dbal": "v2.4.2",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/helpers": "^1.4",
         "laravel/tinker": "^2.5",
+        "league/flysystem-aws-s3-v3": "^1.0",
         "modullo/modules-auth": "@dev",
+        "modullo/modules-eos-solution": "@dev",
         "modullo/sdk-php-laravel": "@dev",
         "modullo/user-laravel": "@dev"
     },

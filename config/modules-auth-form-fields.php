@@ -11,20 +11,18 @@ return [
         'project management'
       ],
     ],
-    [
-      'field_name' => 'address',
-      'field_type' => 'string',
-      'enum_data' => [],
-    ],
 
-    [
-      'field_name' => 'framework',
+  [
+      'field_name' => 'Framework',
       'field_type' => 'enum',
       'enum_data' => [
-        'laravel',
-        'nodejs',
+          'laravel',
+          'Vuejs',
+          'react'
       ],
-    ],
+  ],
+
+    
 
   ]
 ];

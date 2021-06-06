@@ -27,16 +27,25 @@
     <!-- Dashboard Core -->
     <link href="{{ asset('Themes/tabler/css/tabler.css') }}" rel="stylesheet" />
     <link href="{{ asset('Themes/tabler/css/app.css') }}" rel="stylesheet" />
-    <link href="{{ asset('Themes/tabler/css/dashboard.css') }}" rel="stylesheet" />
+    {{-- <link href="{{ asset('Themes/tabler/css/dashboard.css') }}" rel="stylesheet" /> --}}
     <!-- c3.js Charts Plugin -->
     <link href="{{ asset('Themes/tabler/plugins/charts-c3/plugin.css') }}" rel="stylesheet" />
     <link href="{{ asset('Themes/tabler/plugins/iconfonts/plugin.css') }}" rel="stylesheet" />
     <link href="{{ asset('Themes/tabler/plugins/prismjs/plugin.css') }}" rel="stylesheet" />
     <link href="{{ asset('Themes/tabler/css/bootstrap-table.min.css') }}" rel="stylesheet" />
+    <style>
+        .nav-link {
+            display: block;
+            font-size: 1.1em;
+            padding: 0 !important;
+        }
+    </style>
     @yield('head_css')
     @yield('head_js')
+      <!-- include the Vue.js framework -->
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script> --}}
 </head>
-<body  @section('body_class') class="" @show>
+<body style="overflow-x: hidden"  @section('body_class') class="" @show>
 <div class="page" id="tabler-page">
     @section('body')
         <div class="page-main">
@@ -44,7 +53,7 @@
 
 
             @section('body_content')
-                    <div class="container ">
+                    <div class="container-flui">
 
                         @yield('body_content_main')
                     </div>
@@ -72,7 +81,13 @@
 <!-- Input Mask Plugin -->
 <script src="{{ asset('Themes/tabler/plugins/input-mask/js/jquery.mask.min.js') }}"></script>
 <script src="{{ asset('Themes/tabler/js/core.js') }}"></script>
-
+<script>
+    $(document).ready(function() {
+        $('#myCarousel0').carousel({
+            interval: 5000
+        })
+    });
+</script>
 
 <!--custom-script.js - Add your own theme custom JS-->
 @yield('body_js')

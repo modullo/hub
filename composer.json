@@ -9,12 +9,12 @@
     "repositories": [
         {
             "type": "path",
-            "url": "/Users/user/sites/Modullo/modullo-modules/*",
+            "url": "c:/laragon/www/Modulo/modulo-modules/*",
             "symlink": true
         }],
     "license": "MIT",
     "require": {
-        "php": "7.4",
+        "php": "7.4.*",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -23,6 +23,10 @@
         "modullo/user-laravel": "@dev",
         "modullo/sdk-php-laravel": "@dev",
         "modullo/modules-auth": "@dev",
+        "modullo/modules-lms-base": "@dev",
+        "modullo/modules-lms-learning-base": "@dev",
+        "modullo/modules-lms-assessment-base": "@dev",
+        "modullo/modules-lms-grading-base": "@dev",
         "laravel/helpers": "^1.4",
         "ext-json": "*"
     },

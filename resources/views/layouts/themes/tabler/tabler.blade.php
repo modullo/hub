@@ -27,7 +27,7 @@
     <!-- Dashboard Core -->
     <link href="{{ asset('Themes/tabler/css/tabler.css') }}" rel="stylesheet" />
     <link href="{{ asset('Themes/tabler/css/app.css') }}" rel="stylesheet" />
-    <link href="{{ asset('Themes/tabler/css/dashboard.css') }}" rel="stylesheet" />
+{{--    <link href="{{ asset('Themes/tabler/css/dashboard.css') }}" rel="stylesheet" />--}}
     <!-- c3.js Charts Plugin -->
     <link href="{{ asset('Themes/tabler/plugins/charts-c3/plugin.css') }}" rel="stylesheet" />
     <link href="{{ asset('Themes/tabler/plugins/iconfonts/plugin.css') }}" rel="stylesheet" />
@@ -44,7 +44,7 @@
 
 
             @section('body_content')
-                    <div class="container-fluid ">
+                    <div class="">
 
                         @yield('body_content_main')
                     </div>

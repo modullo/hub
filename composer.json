@@ -6,12 +6,6 @@
         "framework",
         "laravel"
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "~/documents/Hostville/Modullo/modullo-modules/*",
-            "symlink": true
-        }],
     "license": "MIT",
     "require": {
         "php": "7.4.*",
@@ -24,9 +18,9 @@
         "laravel/helpers": "^1.4",
         "laravel/tinker": "^2.5",
         "league/flysystem-aws-s3-v3": "^1.0",
-        "modullo/sdk-php-laravel": "@dev",
-        "modullo/user-laravel": "@dev",
-        "modullo/modules-auth": "@dev"
+        "modullo/sdk-php-laravel": "dev",
+        "modullo/user-laravel": "dev",
+        "modullo/modules-auth": "dev"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

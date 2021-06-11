@@ -26,11 +26,7 @@
         "league/flysystem-aws-s3-v3": "^1.0",
         "modullo/sdk-php-laravel": "@dev",
         "modullo/user-laravel": "@dev",
-        "modullo/modules-auth": "@dev",
-        "modullo/modules-lms-base": "@dev",
-        "modullo/modules-lms-learning-base": "@dev",
-        "modullo/modules-lms-assessment-base": "@dev",
-        "modullo/modules-lms-grading-base": "@dev"
+        "modullo/modules-auth": "@dev"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

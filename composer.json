@@ -19,7 +19,11 @@
         "laravel/tinker": "^2.5",
         "modullo/modules-auth": "dev-dev",
         "modullo/sdk-php-laravel": "dev-dev",
-        "modullo/user-laravel": "dev-dev"
+        "modullo/user-laravel": "dev-dev",
+        "modullo/modules-lms-base": "dev-dev",
+        "modullo/modules-lms-learning-base": "dev-dev",
+        "modullo/modules-lms-grading-base": "dev-dev",
+        "modullo/modules-lms-assessment-base": "dev-dev"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

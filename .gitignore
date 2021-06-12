@@ -17,6 +17,9 @@ public_html/storage
 public_html/hot
 
 storage/*.key
+hub.yml
+composer.lock
+ansible-automation
 .env
 Homestead.yaml
 Homestead.json
